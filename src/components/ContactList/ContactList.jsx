@@ -1,4 +1,3 @@
-// import { ContactListItem } from './ContactListItem/ContactListItem';
 import css from './ContactList.module.css';
 import PropTypes from 'prop-types';
 import { useSelector, useDispatch } from 'react-redux';
