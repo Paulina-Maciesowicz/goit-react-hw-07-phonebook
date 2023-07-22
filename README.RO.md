@@ -21,7 +21,7 @@ pentru numele acestuia, asigurați-vă că repository-ul este public, apoi face�
 
 Odată ce repository-ul a fost creat, trebuie să accesați setările
 ale repository-ului creat în fila Settings > Actions > General, așa cum urmează
-prezentată în imagine.
+prezentată în imagine..
 
 ![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
 
