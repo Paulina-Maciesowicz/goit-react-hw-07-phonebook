@@ -11,13 +11,13 @@ export const ContactForm = () => {
   const handleSubmit = e => {
     e.preventDefault();
     const name = e.target.name.value;
-    const number = e.target.number.value;
+    const phone = e.target.number.value;
     const id = nanoid();
     if (contacts.find(contact => contact.name === name)) {
       alert(`${name} is already in contacts`);
       return;
     }
-    dispatch(addContact({ name, number, id }));
+    dispatch(addContact({ name, phone, id }));
     e.target.reset();
   };
 
